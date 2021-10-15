@@ -83,7 +83,7 @@ public class DesignCharacter : MonoBehaviour
         else{
         sh=0;
         }
-        CurrentShoes.GetComponent<Image>().sprite=Shoes[h];
+        CurrentShoes.GetComponent<Image>().sprite=Shoes[sh];
     }
    
 }
